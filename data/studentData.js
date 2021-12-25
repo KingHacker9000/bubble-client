@@ -39,365 +39,363 @@ export const COLORS = [
 
 export const ENTRIES = [
     {
-        studentName: "Veeraj Mohanty",
-        teacherName: "Varsha Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block A Boys Washroom",
-        exitTime: "12:10",
-        returnTime: "12:15",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:30",
-        returnTime: "12:35",
-        comment: "Chota bladder"
-    },
-    
-    {
-        studentName: "Veeraj Mohanty",
-        teacherName: "Varsha Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block A Boys Washroom",
-        exitTime: "12:10",
-        returnTime: "12:15",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:30",
-        returnTime: "12:35",
-        comment: "Chota bladder"
-    },
-    
-    {
-        studentName: "Veeraj Mohanty",
-        teacherName: "Varsha Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block A Boys Washroom",
-        exitTime: "12:10",
-        returnTime: "12:15",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:30",
-        returnTime: "12:35",
-        comment: "Chota bladder"
-    },
-    
-    {
-        studentName: "Veeraj Mohanty",
-        teacherName: "Varsha Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block A Boys Washroom",
-        exitTime: "12:10",
-        returnTime: "12:15",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:30",
-        returnTime: "12:35",
-        comment: "Chota bladder"
-    },
-    
-    {
-        studentName: "Veeraj Mohanty",
-        teacherName: "Varsha Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block A Boys Washroom",
-        exitTime: "12:10",
-        returnTime: "12:15",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:30",
-        returnTime: "12:35",
-        comment: "Chota bladder"
-    },
-    
-    {
-        studentName: "Veeraj Mohanty",
-        teacherName: "Varsha Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block A Boys Washroom",
-        exitTime: "12:10",
-        returnTime: "12:15",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:30",
-        returnTime: "12:35",
-        comment: "Chota bladder"
-    },
-    
-    {
-        studentName: "Veeraj Mohanty",
-        teacherName: "Varsha Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block A Boys Washroom",
-        exitTime: "12:10",
-        returnTime: "12:15",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:30",
-        returnTime: "12:35",
-        comment: "Chota bladder"
-    },
-    
-    {
-        studentName: "Veeraj Mohanty",
-        teacherName: "Varsha Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block A Boys Washroom",
-        exitTime: "12:10",
-        returnTime: "12:15",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:30",
-        returnTime: "12:35",
-        comment: "Chota bladder"
-    },
-    
-    {
-        studentName: "Veeraj Mohanty",
-        teacherName: "Varsha Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block A Boys Washroom",
-        exitTime: "12:10",
-        returnTime: "12:15",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:30",
-        returnTime: "12:35",
-        comment: "Chota bladder"
-    },
-    
-    {
-        studentName: "Veeraj Mohanty",
-        teacherName: "Varsha Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block A Boys Washroom",
-        exitTime: "12:10",
-        returnTime: "12:15",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:30",
-        returnTime: "12:35",
-        comment: "Chota bladder"
-    },
-    
-    {
-        studentName: "Veeraj Mohanty",
-        teacherName: "Varsha Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:00",
-        returnTime: "12:05",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block A Boys Washroom",
-        exitTime: "12:10",
-        returnTime: "12:15",
-        comment: ""
-    },
-    {
-        studentName: "Rohan Surana",
-        teacherName: "Mega Ma'am",
-        room: "Block B Boys Washroom",
-        exitTime: "12:30",
-        returnTime: "12:35",
-        comment: "Chota bladder"
-    },
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "17:58:07",
+        "name": "Rohan Surana",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
+      {
+        "comment": "Chota Bladder",
+        "entry_id": 1,
+        "exit_time": "7:18:07",
+        "name": "Veeraj Mohanty",
+        "return_time": null,
+        "room": "Block B Boys Washroom",
+        "room_id": 91522,
+        "sheet_id": 1,
+        "student_id": 1,
+        "teacher_id": 1
+      },
 ]

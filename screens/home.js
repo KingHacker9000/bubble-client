@@ -1,20 +1,21 @@
 import React from 'react'
-import { View, Text, SafeAreaView, StyleSheet} from 'react-native'
+import { View, StyleSheet} from 'react-native'
 import Entries from './components/Entries'
 import Header from './components/Header'
 import Students from './components/Students'
 
 
 
-const Home = () => {
+const Home = (entryState) => {
 
     return (
-        <SafeAreaView style={styles.container}> 
-           <Header />
+        <View style={styles.container}> 
+           <Header entryState={entryState}/>
            <Students />
            <Entries />
+           
 
-        </SafeAreaView>
+        </View>
     )
 }
 

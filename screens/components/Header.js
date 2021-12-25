@@ -1,16 +1,19 @@
-import React from 'react'
-import { View, Text, Image, StyleSheet, TouchableOpacity} from 'react-native'
+import React, {useState} from 'react'
+import { View, Text, Image, StyleSheet, TouchableOpacity, Modal} from 'react-native'
+import AddEntry from '../AddEntry';
 
-const Header = () => {
+const Header = (entryState) => {
+
     return (
         <View style={styles.container}>
+            
             <View>
                 <TouchableOpacity>
                     <Image style={styles.logo} source={require('../../assets/bubble.png')} />
                 </TouchableOpacity>
             </View>
             <View style={styles.iconContainer}>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={entryState.entryState.entryState}>
                     <Image style={styles.button} source={{uri: "https://img.icons8.com/ios/50/000000/add.png"}} />    
                 </TouchableOpacity>
                 <TouchableOpacity>
@@ -21,7 +24,9 @@ const Header = () => {
                 </TouchableOpacity>
                 
             </View>
+            
         </View>
+        
     )
 }
 
