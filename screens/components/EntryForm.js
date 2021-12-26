@@ -25,15 +25,12 @@ const EntryForm = (returnHome) => {
 
         fetch('https://serverbubble.herokuapp.com/get/students?name=' + formik.values.studentId.replace(' ', '%20') + "&Cid=91113").then((response) => response.json())
         .then((json) => {
-            console.log(json)
             fetch('https://serverbubble.herokuapp.com/get/rooms?name=' + formik.values.roomId + "&type=" + formik.values.roomType).then((response) => response.json())
                 .then((output1) => {
                     const url = 'https://serverbubble.herokuapp.com/entry?Sid=' + json.output[0].student_id + "&Tid=1&Rid=" + output1.output[0].room_id + "&Comment=" + formik.values.comment.replace(' ', '%20')
-                    console.log(url)
                     fetch(url).then((response) => response.json())
                     .then((out) => {
                         console.log(out)
-                        console.log(formik.values)
                 })
             })
         })

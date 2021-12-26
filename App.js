@@ -4,6 +4,7 @@ import AddEntry from './screens/AddEntry';
 import Home from './screens/home';
 
 export default function App() {
+  console.disableYellowBox = true;
     
   const [entryModalVisible, setEntryModalVisible] = useState(false);
   returnHome = () => {setEntryModalVisible(false)}

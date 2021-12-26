@@ -12,7 +12,6 @@ function name(n, l){
 function getRoom(id){
     fetch("https://serverbubble.herokuapp.com/get/rooms?type=Classroom&Rid=" + id).then((response) => response.json())
         .then((json) => {
-            console.log(json.output[0].name)
             return json.output[0].name
     })
 }
@@ -21,7 +20,6 @@ function getName(id){
     const url = "https://serverbubble.herokuapp.com/student?Sid=" + id
     fetch(url).then((response) => response.json())
     .then((json) => {
-        console.log(json.output[0].name)
         return json.output[0].name
     })
 }

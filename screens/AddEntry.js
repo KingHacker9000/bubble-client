@@ -8,7 +8,7 @@ const AddEntry = (returnHome) => {
     return (
         <View>
             <EntryForm returnHome={returnHome.returnHome} />
-            <Bottom />
+            
         </View>
     )
 }
