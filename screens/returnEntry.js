@@ -3,36 +3,27 @@ import { View, Text, Image, TouchableOpacity, StyleSheet, TextInput} from 'react
 import { Picker } from '@react-native-picker/picker'
 import { useFormik} from 'formik'
 
-const EntryForm = (returnHome) => {
+const ReturnEntry = (returnModalState) => {
 
     const [students, setStudents] = useState([{name: ''}])
-    const [rooms, setRooms] = useState([{name: '', room_id: ''}])
-
 
     const formik = useFormik({
         initialValues: {
             studentId: '',
-            roomType: 'Washroom',
-            roomId: '',
-            comment: ''
         },
         onSubmit: values => {console.log(values)}
     });
 
     
     function submitForm() {
-        returnHome.returnHome()
+        returnHome();
 
         fetch('https://serverbubble.herokuapp.com/get/students?name=' + formik.values.studentId.replace(' ', '%20') + "&Cid=91113").then((response) => response.json())
         .then((json) => {
-            fetch('https://serverbubble.herokuapp.com/get/rooms?name=' + formik.values.roomId + "&type=" + formik.values.roomType).then((response) => response.json())
-                .then((output1) => {
-                    const url = 'https://serverbubble.herokuapp.com/entry?Sid=' + json.output[0].student_id + "&Tid=1&Rid=" + output1.output[0].room_id + "&Comment=" + formik.values.comment.replace(' ', '%20')
-                    fetch(url).then((response) => response.json())
-                    .then((out) => {
-                        console.log(out)
-                })
-            })
+            
+            const url = 'https://serverbubble.herokuapp.com/return?Sid=' + json.output[0].student_id;
+            fetch(url).then((response) => console.log(response.json()))
+            
         })
     }
 
@@ -43,14 +34,11 @@ const EntryForm = (returnHome) => {
             } 
     })
 
-    fetch('https://serverbubble.herokuapp.com/get/rooms?type=' + formik.values.roomType).then((response) => response.json())
-        .then((json) => {
-            if(json.output && JSON.stringify(rooms) != JSON.stringify(json.output)){
-                setRooms(json.output)
-            }
-    })  
 
-    return (
+
+
+  return (
+    <View>
         <View style={{marginBottom: 50}}>
             <View style={styles.container}>
                 <View style={styles.tab}>
@@ -58,7 +46,7 @@ const EntryForm = (returnHome) => {
                         <Image style={styles.logo} source={{uri: "https://img.icons8.com/ios-glyphs/30/000000/back.png"}} />
                     </TouchableOpacity>
                     <View style={{width: 20}}></View>
-                    <Text style={styles.heading}>Add Entry</Text>
+                    <Text style={styles.heading}>Return</Text>
                 </View>
                 <View style={styles.tab}>
                     <TouchableOpacity onPress={submitForm}>
@@ -76,32 +64,14 @@ const EntryForm = (returnHome) => {
                     })}
                 </Picker>
 
-                <Picker style={[styles.dropdown, {color: '#1FD944'}]} enabled={true} mode="dropdown" placeholder="Select Room Type" selectedValue={formik.values.roomType} onValueChange={formik.handleChange('roomType')}>
-                    {["Classroom", "Washroom", "Laboratory", "Feild/Pool", "Recreational Room", "Office/Hall"].map((roomType) => {
-                        return (
-                            <Picker.Item value={roomType} label={roomType} />
-                        )
-                    })}
-                </Picker>
-
-                <Picker style={[styles.dropdown, {color: '#1C97D8'}]} enabled={true} mode="dropdown" placeholder="Select Room" selectedValue={formik.values.roomId} onValueChange={formik.handleChange('roomId')}>
-                    {rooms.map((room) => {
-                        return (
-                            <Picker.Item value={room.name} label={room.name} />
-                        )
-                    })}
-
-                </Picker>
-
-                <TextInput style={styles.input} placeholderTextColor="#B988FF" placeholder='Comment...' onChangeText={formik.handleChange('comment')} value={formik.values.comment} />
-
             </View>
 
         </View>
-    )
-}
+    </View>
+  );
+};
 
-export default EntryForm
+export default ReturnEntry;
 
 const styles = StyleSheet.create({
     container: {

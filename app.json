@@ -4,9 +4,9 @@
     "slug": "Bubble",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/bubbleSquare.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/bubbleSquare.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,13 +20,14 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "Bubble.bubbleapp",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/bubbleSquare.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/bubbleSquare.png"
     }
   }
 }

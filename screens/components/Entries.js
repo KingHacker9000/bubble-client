@@ -46,16 +46,29 @@ const Entries = () => {
 
                         <View key={index}>
                             <TouchableOpacity>
-                                <View style={styles.entryContainer}>
-                                    <Text style={{marginHorizontal: 10, color: '#6938E5', fontWeight: 'bold'}}>
-                                        {entry.exit_time}:
-                                    </Text>
-                                    <Text style={styles.nameValue}>
-                                        {entry.name}
-                                    </Text>
-                                    <Text style={styles.roomValue}>
-                                        {name(entry.room, 18)}
-                                    </Text>
+                                <View style={styles.entryBox}>
+                                    <View style={styles.entryContainer}>
+                                        <Text style={{marginHorizontal: 10, color: '#6938E5', fontWeight: 'bold'}}>
+                                            {entry.exit_time}:
+                                        </Text>
+                                        <Text style={styles.nameValue}>
+                                            {entry.name}
+                                        </Text>
+                                        <Text style={styles.roomValue}>
+                                            {name(entry.room, 18)}
+                                        </Text>
+                                    </View>
+                                    <View style={styles.entryContainer2}>
+                                        <Text style={{marginHorizontal: 10, color: '#6938E5', fontWeight: 'bold'}}>
+                                            Return Time: {entry.return_time}
+                                        </Text>
+                                        <Text style={styles.spaceValue}>
+                                            
+                                        </Text>
+                                        <Text style={styles.roomValue}>
+                                            Comment: {entry.comment}
+                                        </Text>
+                                    </View>
                                 </View>
                             </TouchableOpacity>
                         </View>
@@ -72,18 +85,40 @@ const styles = StyleSheet.create({
     entryContainer: {
         marginHorizontal: 5,
         alignItems: 'stretch',
-        borderTopWidth: 1,
-        borderTopColor: '#eee',
         padding: 20,
         flexDirection: 'row',
         right: 0,
-        left: 0
+        left: 0,
+    },
+    entryContainer2: {
+        marginHorizontal: 5,
+        alignItems: 'stretch',
+        padding: 20,
+        flexDirection: 'row',
+        right: 0,
+        left: 0,
+        justifyContent: 'center', 
+        alignItems: 'center',
+    },
+
+    entryBox: {
+        borderTopWidth: 1,
+        borderTopColor: '#eee',
     },
 
     nameValue: {
         textAlign: 'center',
         marginHorizontal: 10,
         width: 130,
+        borderRightWidth: 1,
+        borderLeftWidth: 1,
+        borderColor: 'orange',
+        color: 'red'
+    },
+    spaceValue: {
+        textAlign: 'center',
+        marginHorizontal: 10,
+        width: 5,
         borderRightWidth: 1,
         borderLeftWidth: 1,
         borderColor: 'orange',

@@ -20,15 +20,15 @@ export const STUDENTS = [
         room: "Block B Boys Washroom"
     },
     {
-        name: "BatRaj Gardian of the bowl",
+        name: "BatRaj",
         room: "Block B Boys Washroom"
     },
     {
-        name: "Proffesor Veeru Paji",
+        name: "Proffesor Veeraj",
         room: "Block B Boys Washroom"
     },
     {
-        name: "Chemistry Topper Rohan IIT",
+        name: "Rohan IIT",
         room: "Block B Boys Washroom"
     },
 ]
@@ -39,7 +39,7 @@ export const COLORS = [
 
 export const ENTRIES = [
     {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -51,7 +51,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -63,7 +63,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -75,7 +75,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -87,7 +87,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -99,7 +99,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -111,7 +111,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -123,7 +123,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -135,7 +135,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -147,7 +147,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -159,7 +159,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -171,7 +171,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -183,7 +183,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -195,7 +195,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -207,7 +207,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -219,7 +219,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -231,7 +231,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -243,7 +243,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -255,7 +255,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -267,7 +267,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -279,7 +279,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -291,7 +291,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -303,7 +303,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -315,7 +315,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -327,7 +327,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -339,7 +339,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -351,7 +351,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -363,7 +363,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",
@@ -375,7 +375,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "17:58:07",
         "name": "Rohan Surana",
@@ -387,7 +387,7 @@ export const ENTRIES = [
         "teacher_id": 1
       },
       {
-        "comment": "Chota Bladder",
+        "comment": "",
         "entry_id": 1,
         "exit_time": "7:18:07",
         "name": "Veeraj Mohanty",

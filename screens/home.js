@@ -6,11 +6,11 @@ import Students from './components/Students'
 
 
 
-const Home = (entryState) => {
+const Home = (entryState, returnModalState) => {
 
     return (
         <View style={styles.container}> 
-           <Header entryState={entryState}/>
+           <Header entryState={entryState} returnModalState={returnModalState} />
            <Students />
            <Entries />
            
